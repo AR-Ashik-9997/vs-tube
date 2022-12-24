@@ -12,7 +12,7 @@ const Layout = ({ children }: child) => {
           <div className="drawer-content">{children}</div>
           <div className="drawer-side">
             <label htmlFor="my-drawer" className="drawer-overlay"></label>
-            <ul className="menu p-4 w-50 lg:w-48 md:w-48 bg-base-100 text-base-content">
+            <ul className="menu p-4 w-48 lg:w-48 md:w-48 bg-base-100 text-base-content">
               <li>
                 <a>Sidebar Item 1</a>
               </li>
